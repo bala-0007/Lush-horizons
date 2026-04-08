@@ -91,7 +91,7 @@ The Swiss Cheese Plant is one of the easiest indoor plants to grow. With its glo
 </p>
 
               <a 
-  href="https://medium.com/@thelushhorizons/a-beginners-guide-to-plants-seeds-and-essential-gardening-tools-628e3326199f"
+  href="https://medium.com/@VinodhaTechJourney/the-magic-of-swiss-cheese-plant-plants-the-perfect-low-maintenance-green-companion-7a9111e7eb1e"
   target="_blank"
   rel="noopener noreferrer"
   className="btn btn-success"
