@@ -1,0 +1,135 @@
+.contact-page {
+    background-image: url("../assets/carouselimages/image3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 50px 0;
+    color: white;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .subheading {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .contact-form {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    animation: slideUp 1.5s ease;
+  }
+  
+  .form-input {
+    border: 1px solid white;
+    /* background-color: transparent; */
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .form-input:focus {
+    border-color: #ddd;
+    box-shadow: 0 0 5px #ddd;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .submit-btn {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #444;
+    transform: scale(1.1);
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+
+  /* General Layout */
+.contact-us-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 0 50px;
+    background-color: #000; /* Add background for contrast */
+    color: #fff;
+  }
+  
+  .contact-text-container {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .background-image {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .background-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* Text Animation */
+  .contact-text {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.6s ease-out;
+  }
+  
+  .contact-text.slide-in {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-us-section {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .contact-text-container,
+    .background-image {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

@@ -1,0 +1,129 @@
+/* Header Styling */
+.custom-header {
+  background-color: #6a9e78 !important; /* Main background color */
+  height: 100px;
+ 
+  align-items: center;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1000;
+}
+
+/* Logo Styling */
+.logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2c1a1a !important;
+}
+
+/* Hamburger Menu */
+.custom-hamburger {
+  position: fixed; /* Fixed position for better responsiveness */
+  top: 0;
+  right: 0;
+  background-color: rgba(106, 158, 120, 0.95); /* Slightly transparent */
+  width: 300px;
+  height: 100%;
+  z-index: 1050;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.custom-hamburger.show {
+  transform: translateX(0); /* Slide in when active */
+}
+
+/* Navigation Bar */
+.custom-navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.navbar-brand {
+  font-size: 26px;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+/* Navigation Links */
+.nav-link {
+  font-size: 18px;
+  padding: 8px 15px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #5e8e6a;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  background-color: #6a9e78;
+  border: none;
+  margin-top: 10px;
+  padding: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-item {
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #5e8e6a;
+  color: #fff;
+}
+
+/* Close Icon */
+.navbar-toggler .close-icon {
+  font-size: 24px;
+  color: #fff;
+  position: absolute;
+  top: 86px;
+  right: 4px;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar-toggler-icon {
+    color: rgb(206, 142, 142);
+  }
+}
+
+.open-cart-button {
+  border-radius: 10px;
+  background-color: #c0dbcc;
+  padding: 8px;
+  margin-left: 5px;
+  text-align: center;
+  cursor: pointer; /* Hand symbol */
+  transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.open-cart-button:hover {
+  background-color: #99c2ad; /* Lighter green color on hover */
+  color: #ffffff; /* Optional: Text color change */
+}
+

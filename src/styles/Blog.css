@@ -1,0 +1,22 @@
+
+  .card {
+    border-radius: 8px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+  }
+  
+  button {
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #045d56;
+  }
+  

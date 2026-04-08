@@ -1,0 +1,15 @@
+.right-image {
+    transition: transform 1s ease;
+  }
+  
+  .image-move .right-image {
+    transform: translateX(20%);
+  }
+  .left-image {
+    transition: transform 1s ease;
+  }
+  
+  .image-move .left-image {
+    transform: translateY(20%);
+  }
+  
