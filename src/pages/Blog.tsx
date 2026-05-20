@@ -1,3 +1,4 @@
+/// <reference path="../custom.d.ts" />
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Blog.css";

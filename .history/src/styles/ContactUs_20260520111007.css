@@ -30,16 +30,16 @@
   }
   
   .form-input {
-    border: 1px solid #999;
-    background-color: #E8E8E8;
-    color: #000000;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
     transition: all 0.3s ease;
   }
   
-  /* Keep ash gray background when focused */
+  /* When an input is focused, immediately turn ash/gray with black text (before typing) */
   .form-input:focus {
-    border-color: #666;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-color: #999;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     background-color: #E8E8E8;
     color: #000000;
   }
